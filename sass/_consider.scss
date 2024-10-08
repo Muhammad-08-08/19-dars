@@ -1,0 +1,59 @@
+.consider {
+  width: 100%;
+
+  h2 {
+    font-family: Recoleta;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 54px;
+    text-align: center;
+  }
+  p {
+    font-family: Noto Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+  }
+
+  .consider-card {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+
+    .card {
+      width: 353px;
+      height: 393px;
+      border-radius: 15px;
+      background-color: #FBFAF7;
+      padding: 50px 40px;
+
+      &:hover{
+        background-color: $header-bg-color;
+        color: $header-color;
+        transition: all 0.5s;
+      }
+
+      &:active{
+        background-color: gold;
+      }
+    }
+    .card1 {
+        width: 353px;
+        height: 413px;
+        border-radius: 15px;
+        background-color: #FBFAF7;
+        padding: 50px 40px;
+
+        &:hover{
+            background-color: $header-bg-color;
+            color: $header-color;
+            transition: all 0.5s;
+          }
+          &:active{
+            background-color: gold;
+          }
+      }
+  }
+}

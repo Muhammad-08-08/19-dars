@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: lightgray;
+}
+@import "veriable";
+@import "mixins";
+@import "funksiya";
+@import "loop";
+@import "header";
+@import "maintop";
+@import "section";
+@import "employs";
+@import "together";
+@import "consider";
+
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: white;
+
+
+}

@@ -1,0 +1,33 @@
+main {
+  width: 100%;
+
+  .main-img {
+    display: flex;
+    gap: 98px;
+    align-items: center;
+    justify-content: center;
+
+    h2 {
+      font-family: Recoleta;
+      font-size: 48px;
+      font-weight: 600;
+      line-height: 54px;
+      text-align: left;
+      margin-bottom: 27px;
+    }
+  }
+  .partner {
+    font-family: Recoleta;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 54px;
+    text-align: center;
+    margin-top: 113px;
+  }
+  .main-icon{
+    display: flex;
+    justify-content: center;
+    gap: 87px;
+    align-items: center;
+  }
+}

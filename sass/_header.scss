@@ -1,0 +1,44 @@
+.headertop{
+    width: 100%;
+    background-color: $header-bg-color;
+    color: $header-color;
+    @import "mixins";
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        div{
+            display: flex;
+            gap: 24px;
+            align-items: center;
+
+            a{
+                text-decoration: none;
+                color: $header-color; 
+
+                &:hover{
+                    color: greenyellow;
+                }
+                &:active{
+                    color: gold;
+                }
+            }
+
+            .login{
+                @include button(transparent,#fff);
+            }
+            .get-button{
+                @include button();
+                padding: 15px 25px;
+            }
+        }
+    }
+
+    .hero{
+        display: flex;
+        justify-content: center;
+        gap: 17px;
+        align-items: center;
+    }
+}
